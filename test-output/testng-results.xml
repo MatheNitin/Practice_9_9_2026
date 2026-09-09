@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-08T13:49:27 IST" name="Suite" finished-at="2026-09-08T13:49:29 IST" duration-ms="1977">
+    <groups>
+    </groups>
+    <test started-at="2026-09-08T13:49:27 IST" name="Test" finished-at="2026-09-08T13:49:29 IST" duration-ms="1977">
+      <class name="testClass.LoginTest1">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testClass.LoginTest1@3eb81efb]" started-at="2026-09-08T13:49:22 IST" name="initBrowser" finished-at="2026-09-08T13:49:27 IST" duration-ms="4520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testClass.LoginTest1@3eb81efb]" started-at="2026-09-08T13:49:27 IST" name="createObject" finished-at="2026-09-08T13:49:27 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="ValidateUsername()[pri:1, instance:testClass.LoginTest1@3eb81efb]" started-at="2026-09-08T13:49:27 IST" name="ValidateUsername" finished-at="2026-09-08T13:49:29 IST" duration-ms="1687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUsername -->
+        <test-method signature="ValidatePassword()[pri:2, instance:testClass.LoginTest1@3eb81efb]" started-at="2026-09-08T13:49:29 IST" name="ValidatePassword" finished-at="2026-09-08T13:49:29 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePassword -->
+        <test-method signature="validateLoginButton()[pri:3, instance:testClass.LoginTest1@3eb81efb]" started-at="2026-09-08T13:49:29 IST" name="validateLoginButton" finished-at="2026-09-08T13:49:29 IST" duration-ms="9" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at testClass.LoginTest1.validateLoginButton(LoginTest1.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClass.LoginTest1@3eb81efb]" started-at="2026-09-08T13:49:29 IST" name="tearDown" finished-at="2026-09-08T13:49:30 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClass.LoginTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
